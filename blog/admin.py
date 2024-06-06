@@ -30,3 +30,6 @@ class PostAdmin(admin.ModelAdmin):
       'status',
       'publish',
   ]
+
+
+show_facets = admin.ShowFacets.ALWAYS
