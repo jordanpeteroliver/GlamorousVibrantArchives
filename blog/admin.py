@@ -11,3 +11,9 @@ class PostAdmin(admin.ModelAdmin):
       'publish',
       'status',
   ]
+  list_filter = [
+      'status',
+      'created',
+      'publish',
+      'author',
+  ]
