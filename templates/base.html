@@ -39,10 +39,19 @@
       </div>
     </nav>
     <!-- End Example Code -->
+
+
+    <!-- main content -->
+    {% for post in posts %}
     <div id="content" class="container">
       <br>
       {% block content %}
       {% endblock %}
     </div>
+    {% endfor %}
+    <!-- end main content -->
+
+
+    
   </body>
 </html>
